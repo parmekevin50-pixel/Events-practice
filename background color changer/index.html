@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color Changer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Background Color Changer</h1>
+
+      <p>Current Color: <span id="colorCode">#E8EDF5</span></p>
+
+      <div class="colors">
+        <button class="color-btn" data-color="#EF4444">Red</button>
+        <button class="color-btn" data-color="#22C55E">Green</button>
+        <button class="color-btn" data-color="#3B82F6">Blue</button>
+        <button class="color-btn" data-color="#EAB308">Yellow</button>
+        <button class="color-btn" data-color="#A855F7">Purple</button>
+      </div>
+
+      <button id="randomBtn">Random Color</button>
+
+      <div class="extra-buttons">
+        <button id="resetBtn">Reset</button>
+        <button id="copyBtn">Copy HEX</button>
+      </div>
+
+      <div class="picker">
+        <label for="colorPicker">Choose Your Own Color:</label>
+        <input type="color" id="colorPicker" value="#E8EDF5" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

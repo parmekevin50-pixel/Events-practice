@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Student Dashboard</h1>
+        <button id="themeBtn">Dark Mode</button>
+      </header>
+
+      <div class="form-section">
+        <h2>Add New Student</h2>
+
+        <input type="text" id="studentName" placeholder="Enter student name" />
+
+        <p id="charCount">Characters: 0</p>
+
+        <button id="addBtn">Add Student</button>
+      </div>
+
+      <div class="search-section">
+        <input type="text" id="searchInput" placeholder="Search student..." />
+      </div>
+
+      <div class="stats">
+        <div class="stat-box">
+          <h3 id="totalCount">0</h3>
+          <p>Total Students</p>
+        </div>
+
+        <div class="stat-box">
+          <h3 id="presentCount">0</h3>
+          <p>Present</p>
+        </div>
+
+        <div class="stat-box">
+          <h3 id="absentCount">0</h3>
+          <p>Absent</p>
+        </div>
+      </div>
+
+      <h2>Student List</h2>
+
+      <ul id="studentList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
